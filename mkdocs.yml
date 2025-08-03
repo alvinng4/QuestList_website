@@ -2,6 +2,7 @@ site_name: QuestList
 
 nav:
   - "Home": index.md
+  - "Terms of Use": terms.md
 theme:
   name: material
   # logo: docs/orbit_logo.svg
