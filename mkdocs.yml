@@ -5,7 +5,7 @@ nav:
   - "Terms of Use": terms.md
 theme:
   name: material
-  # logo: docs/orbit_logo.svg
+  logo: check_logo.svg
   icon:
     repo: fontawesome/brands/github-alt
   features:
@@ -29,14 +29,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary: black
-      accent: purple
+      primary: "cyan"
+      accent: "blue"
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary: black
-      accent: purple
+      primary: "cyan"
+      accent: "blue"
   
 markdown_extensions:
   - admonition
