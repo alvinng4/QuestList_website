@@ -46,10 +46,21 @@ QuestList can be accessed on most Apple platforms, including iPhone, iPad, and M
 }
 .image-gallery img {
     flex: 0 0 auto;
-    height: 300px;
+    max-height: 300px;
+    max-width: 90vw;
     width: auto;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    object-fit: contain;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .image-gallery img {
+        max-height: 250px;
+        max-width: 85vw;
+    }
 }
 </style>
 
